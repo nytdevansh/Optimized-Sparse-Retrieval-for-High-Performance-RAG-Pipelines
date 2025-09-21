@@ -420,13 +420,3 @@ print(f'Memory: {process.memory_info().rss / 1024**2:.1f}MB')
 
 MIT License - see LICENSE file for details.
 
-## Citation
-
-```bibtex
-@software{rag_system_optimized,
-  title={High-Performance RAG System with SIMD Optimization},
-  author={RAG Team},
-  year={2024},
-  url={https://github.com/example/rag-system}
-}
-```# Optimized-Sparse-Retrieval-for-High-Performance-RAG-Pipelines
