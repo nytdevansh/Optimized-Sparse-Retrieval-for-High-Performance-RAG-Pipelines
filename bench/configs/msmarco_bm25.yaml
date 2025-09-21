@@ -1,0 +1,4 @@
+dataset: msmarco
+method: bm25
+params:
+  k: 100
