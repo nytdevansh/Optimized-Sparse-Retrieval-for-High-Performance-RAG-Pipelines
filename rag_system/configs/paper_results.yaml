@@ -1,0 +1,47 @@
+# RAG Research Pipeline - All Sparse Methods
+output_dir: "results"
+
+experiments:
+  - name: "fiqa_bm25_custom"
+    dataset: "fiqa"
+    retriever:
+      type: "bm25_custom"
+      model: null
+      params:
+        top_k: 50
+        k1: 1.2
+        b: 0.75
+        use_numba: true
+        cache_matrices: true
+    reader:
+      type: "extractive"
+      params:
+        max_answer_length: 150
+
+  - name: "fiqa_dpr_sparse"
+    dataset: "fiqa"
+    retriever:
+      type: "dpr"
+      model: "sentence-transformers/facebook-dpr-question_encoder-single-nq-base"
+      params:
+        top_k: 50
+        use_numba: true
+        cache_matrices: true
+    reader:
+      type: "extractive"
+      params:
+        max_answer_length: 150
+
+  - name: "fiqa_contriever_sparse"
+    dataset: "fiqa"
+    retriever:
+      type: "contriever" 
+      model: "facebook/contriever"
+      params:
+        top_k: 50
+        use_numba: true
+        cache_matrices: true
+    reader:
+      type: "generative"
+      params:
+        max_context_length: 500
