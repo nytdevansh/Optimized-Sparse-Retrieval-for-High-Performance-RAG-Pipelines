@@ -1,0 +1,13 @@
+output_dir: "test_results"
+
+experiments:
+  - name: "fiqa_small_test"
+    dataset: "fiqa"  
+    retriever:
+      type: "bm25"
+      params:
+        top_k: 10
+    reader:
+      type: "extractive"
+      params:
+        max_answer_length: 50

@@ -1,0 +1,6 @@
+datasets/
+.DS_Store
+__pycache__
+output.txt
+ouput.txt
+results/fiqa_bm25_rag_preds.json

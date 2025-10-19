@@ -1,0 +1,7 @@
+
+# bench/configs/nq_bm25.yaml
+dataset: nq
+method: bm25
+params:
+  index_path: indexes/nq_bm25
+  k: 100

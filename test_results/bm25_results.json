@@ -1,0 +1,25 @@
+{
+  "suite_name": "bm25",
+  "success": true,
+  "metrics": {
+    "vectorized_correct": true,
+    "numba_correct": true,
+    "ranking_correlation": true,
+    "reference_time": 2.0979808760002925,
+    "vectorized_time": 0.05951416500192863,
+    "numba_time": 0.05945716800397349,
+    "baseline_time": 0.3168698299969037,
+    "vectorized_speedup": 35.251790492772685,
+    "numba_speedup": 35.28558366352204,
+    "vs_baseline_vectorized": 5.324275825538931,
+    "vs_baseline_numba": 5.329379797835771,
+    "vectorized_memory_mb": 26.281856536865234,
+    "baseline_memory_mb": 11.001945495605469,
+    "memory_ratio": 2.388837187692218
+  },
+  "error": null,
+  "hardware_metrics": {
+    "current_memory_mb": 0.02793121337890625,
+    "peak_memory_mb": 0.5548934936523438
+  }
+}

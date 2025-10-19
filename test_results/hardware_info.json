@@ -1,0 +1,16 @@
+{
+  "cpu": {
+    "brand": "Apple M1",
+    "architecture": "ARM_8",
+    "cores": {
+      "physical": 8,
+      "logical": 8
+    },
+    "features": []
+  },
+  "memory": {
+    "total": 8589934592,
+    "available": 2035269632,
+    "percent_used": 76.3
+  }
+}
