@@ -1,6 +1,0 @@
-# bench/configs/nq_splade.yaml
-dataset: nq
-method: splade
-params:
-  model_name: naver/splade-v3-distil
-  k: 100

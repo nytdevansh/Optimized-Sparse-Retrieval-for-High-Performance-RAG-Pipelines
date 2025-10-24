@@ -1,6 +1,0 @@
-# bench/configs/nq_dpr.yaml
-dataset: nq
-method: dpr
-params:
-  model_name: facebook/dpr-ctx_encoder-single-nq-base
-  k: 100

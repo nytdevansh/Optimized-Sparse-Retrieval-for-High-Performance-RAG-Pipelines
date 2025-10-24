@@ -1,0 +1,15 @@
+{
+  "method": "bm25_custom",
+  "n_queries": 648,
+  "n_docs": 57638,
+  "total_time_s": 80.294,
+  "avg_latency_s": 0.1239,
+  "nDCG@10": 0.1591,
+  "nDCG@100": 0.1982,
+  "MAP@10": 0.1163,
+  "MAP@100": 0.1239,
+  "Recall@10": 0.2037,
+  "Recall@100": 0.359,
+  "P@10": 0.0446,
+  "device": "cpu"
+}

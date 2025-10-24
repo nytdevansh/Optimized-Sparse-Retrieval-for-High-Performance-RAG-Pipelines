@@ -1,6 +1,0 @@
-# bench/configs/nq_contriever.yaml
-dataset: nq
-method: contriever
-params:
-  model_name: facebook/contriever
-  k: 100

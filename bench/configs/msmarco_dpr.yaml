@@ -1,5 +1,0 @@
-dataset: msmarco
-method: dpr
-params:
-  model_name: facebook/dpr-ctx_encoder-single-nq-base
-  k: 100
